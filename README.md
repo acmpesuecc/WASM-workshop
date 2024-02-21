@@ -11,5 +11,5 @@ emcc hello.c -Lraylib/lib -lraylib -lglfw3 -o hello.html
 ## Running graphics.c
 
 ```
-emcc graphics.c -Lraylib/lib -lraylib --preload-file resources -lglfw3 -o graphics.html
+emcc graphics.c -Lraylib/lib -lraylib --preload-file resources -o graphics.html -s USE_GLFW=3
 ```
